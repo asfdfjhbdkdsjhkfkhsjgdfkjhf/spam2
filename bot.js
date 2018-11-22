@@ -23,13 +23,13 @@ falsteni.on('message', message => {//@Flasteni
           }//@Flasteni
     });//@Flasteni
 	
-	client.on("ready", () => {
-let channel =     client.channels.get("515208908415959059")
+	falsteni.on("ready", () => {
+let channel =     falsteni.channels.get("515208908415959059")
 setInterval(function() {
 channel.send(`DDDDDDDD`);
 }, 15)
 })
-client.on('message', message => {
+falsteni.on('message', message => {
     let prefix = 'v1';
    if(message.content.startsWith('v1say')) {
        let args = message.content.split(' ').slice(1).join(' ');
