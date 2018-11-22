@@ -7,7 +7,7 @@ falsteni.on('message', message => {//@Flasteni
   if (!message.content.startsWith(prefix)) return;//@Flasteni
   var args = message.content.split(' ').slice(1);//@Flasteni
   var argresult = args.join(' ');//@Flasteni
-  if (message.author.id !== "460389855382470662") return;//@Flasteni
+  if (message.author.id !== "497449510495059978") return;//@Flasteni
 
 //@Flasteni
   if (message.content.startsWith('!spam')) { //@Flasteni
