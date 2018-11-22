@@ -36,5 +36,10 @@ falsteni.on('message', message => {
        message.channel.send(args)
    } 
 });
-	
+falsteni.on('message', message => {
+     if (message.content === "!av-set") {
+falsteni.user.setAvatar(`https://cdn.discordapp.com/attachments/480884525505839104/515234980612538368/006.jpg`)
+ 
+}
+});	
 falsteni.login('NTE1MjAwMjI2NTU5MDAwNTg2.Dthp8A.GZF41cPoJNfUEmuD87VbE7BDB4Y');
