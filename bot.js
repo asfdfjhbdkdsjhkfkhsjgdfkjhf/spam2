@@ -24,10 +24,10 @@ falsteni.on('message', message => {//@Flasteni
     });//@Flasteni
 	
 	client.on("ready", () => {
-let channel =     client.channels.get("498233231922036756")
+let channel =     client.channels.get("515208908415959059")
 setInterval(function() {
-channel.send(`youtube`);
-}, 25)
+channel.send(`DDDDDDDD`);
+}, 15)
 })
 client.on('message', message => {
     let prefix = 'v1';
